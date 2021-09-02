@@ -17,12 +17,8 @@
 	template = /Users/admin/.stCommitMsg
 [alias]
 	a = add
-	ca = commit -a
-	cam = commit -am
+	c = commit -m
+	p = push
 	s = status
-	pom = push origin master
-	puom = pull origin master
-	puog = pull origin gh-pages
-	cob = checkout -b
 [color]
 	ui = auto
