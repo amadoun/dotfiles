@@ -1,0 +1,28 @@
+[user]
+	name = Amadou Modji
+	email = info@modji.ca
+[core]
+	excludesfile = /Users/admin/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path =
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[credential]
+	helper = osxkeychain
+[push]
+	default = simple
+[commit]
+	template = /Users/admin/.stCommitMsg
+[alias]
+	a = add
+	ca = commit -a
+	cam = commit -am
+	s = status
+	pom = push origin master
+	puom = pull origin master
+	puog = pull origin gh-pages
+	cob = checkout -b
+[color]
+	ui = auto
